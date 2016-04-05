@@ -30,7 +30,7 @@ The library is going to be registered with npm and included using the `import` t
 ## Controllers and Components
 The implementation will be based on Ractive.js although, we need controllers and components to be able to structure our application.
 
-A component is an instance of Ractive with specified template (html) and behaviour (event handling). Each component is located inside the component directory and has its own file. However, to separate our templates from the behaviour of the component we need another custom compiler. This complier will traverse through the component directory, look for  '@include path/to/view.html' strings and replace them with the contents of the referenced html-file, surrounded by multiline-inverted-primes (`). Therefore, it must also escape the "`"-symbols within these contents.
+A component is an instance of Ractive with specified template (html) and behaviour (event handling). Each component is located inside the component directory and has its own file. However, to separate our templates from the behaviour of the component we need another custom compiler. This complier will traverse through the component directory, look for  '@include path/to/view.html' strings and replace them with the contents of the referenced html-file, surrounded by multiline-inverted-primes (\`). Therefore, it must also escape the "\`"-symbols within these contents.
 
 A controller is an instance of the Controller class. Controller is called by the Router and makes sure that a component(s) finds its place in the DOM, and that it receives all the information it needs to function – a controller takes care of a view.
 
