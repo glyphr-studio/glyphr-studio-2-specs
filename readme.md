@@ -1,0 +1,1 @@
+Specification details for Glyphr Studio 2
