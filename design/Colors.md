@@ -1,4 +1,4 @@
-# Glyphr Studio Colors
+# Colors
 All colors (that are not user-defined) will come from a set of 4 accent colors, a gray scale, and a special set of failure colors.
 
 ### Accent Colors

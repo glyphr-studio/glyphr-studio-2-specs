@@ -33,6 +33,8 @@ Object where the keys are GSUB feature codes (`ss01`)
 
 Values are `String` objects.
 
+https://www.adobe.com/devnet/opentype/afdko/topic_feature_file_syntax.html
+
 ### Positioning
 
 Object where the keys are unique strings (like `kern1` `kern2`...)
