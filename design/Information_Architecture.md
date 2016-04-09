@@ -1,6 +1,11 @@
 # Information Architecture
 The IA of a product is what pages exist, how the information is divided among them, and now navigation happens between them.
 
+Besides the Open Project page, navigation will be presented via titles / buttons in the upper left hand corner of the screen.
+There will one to three options: Page / Glyph / Panel, Page / Panel, or just Page.  When one of these items is pressed, a list of available 
+pages, glyphs, or panels will be displayed, allowing for navigation or in-page option selecting.
+
+
 Here are the names of the pages in Glyphr Studio
 
 * Open Project
