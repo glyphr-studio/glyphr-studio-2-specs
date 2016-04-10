@@ -4,7 +4,9 @@ All colors (that are not user-defined) will come from a set of 4 accent colors, 
 ## Using Colors
 Wherever possible, colors will be specified by variable, referencing a centralized definition file... something like:
 
-```colors.purple.l65```
+```
+colors.purple.l65
+```
 
 This will make color design updates easier in the future.  It will also enable possible theming functionality - either user defined, or page themes.  Possibly something like:
 
