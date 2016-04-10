@@ -31,4 +31,4 @@ A dark / medium / light set of Red colors will be specified for failures, and us
 
 
 ## Color Reference
-![accent colors](colors/Glyphr_Studio_V2_Accent_Colors.png "accent colors")
+![accent colors](colors/Glyphr_Studio_v2_Colors.png "accent colors")
