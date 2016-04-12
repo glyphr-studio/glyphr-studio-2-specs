@@ -13,9 +13,13 @@ Here are the names of the pages in Glyphr Studio
 * Component Edit
 * Ligature Edit
 * Kerning
-* Font Settings
-* Project Settings
-* About
+* Settings
+	* Font Metadata
+	* Key Metrics
+	* Glyph Ranges
+	* Project / UI Options
+	* Help
+	* About
 
 
 ### Open Project
@@ -32,11 +36,9 @@ These are the main glyph editing areas of the product.  Even though they are sep
 On this page a user will be able to define a Kern Pair, containing either two single glyphs, or two classes of glyphs to kern.
 
 
-### Font and Project Settings
-Essentially just a form presenting a way to edit metadata or options.
+### Settings
+Settings will be broken down into a set of pages / forms that are scoped to a single logical area.
 
 
-### About
-A page that gives details on the current version of Glyphr Studio, and details on the currently opened project.
-
-This page will also contain a link to Help, along with other useful Glyphr Studio links.
+### Help
+Help will be a link to an external doc site.
