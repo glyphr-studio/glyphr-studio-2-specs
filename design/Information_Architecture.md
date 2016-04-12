@@ -17,6 +17,7 @@ Here are the names of the pages in Glyphr Studio
 	* Font Metadata
 	* Key Metrics
 	* Glyph Ranges
+	* (Other sections as necessary...)
 	* Project / UI Options
 	* Help
 	* About
@@ -37,7 +38,7 @@ On this page a user will be able to define a Kern Pair, containing either two si
 
 
 ### Settings
-Settings will be broken down into a set of pages / forms that are scoped to a single logical area.
+The settings page will be broken down into a set of sections that are scoped to a single logical area.
 
 
 ### Help
