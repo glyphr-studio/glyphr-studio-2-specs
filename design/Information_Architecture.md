@@ -43,3 +43,10 @@ The settings page will be broken down into a set of sections that are scoped to 
 
 ### Help
 Help will be a link to an external doc site.
+
+#Mockups
+Light Theme
+![edit layout](ia/glyphr_studio_-_edit.png "edit layout")
+![edit layout](ia/glyphr_studio_-_edit_-_page_chooser.png "edit layout")
+![edit layout](ia/glyphr_studio_-_edit_-_glyph_chooser.png "edit layout")
+![edit layout](ia/glyphr_studio_-_edit_-_panel_chooser.png "edit layout")
