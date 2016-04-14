@@ -22,3 +22,6 @@ With these two high level functionality points in mind, v2 revamped Panels will 
 ![panel](panels/Slide13.PNG)
 ![panel](panels/Slide14.PNG)
 ![panel](panels/Slide15.PNG)
+![panel](panels/Slide16.PNG)
+![panel](panels/Slide17.PNG)
+![panel](panels/Slide18.PNG)
