@@ -45,6 +45,12 @@ body {
 .leftframe {
     width:400px;
     border-right: 1px solid #C0E9FD;
+	animation: 0.5s fadein;
+}
+
+@keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
 }
 
 .centerframe {
@@ -77,6 +83,12 @@ body {
 	flex-direction: row;
 }
 
+.pickerheaderprimary:hover,
+.pickerheadersecondary:hover,
+.pickerheadertertiary:hover {
+	cursor: pointer;
+}
+
 .pickerheaderprimary {
     background-color: #73D1FF;
     height:44px;
@@ -100,8 +112,34 @@ body {
 .pickerheadertertiary .icon {
 	display: flex;
 	text-align: center;
+	vertical-align: middle;
 	height:100%;
 	width:44px;
+}
+
+.pickerheaderprimary .icon svg,
+.pickerheadersecondary .icon svg,
+.pickerheadertertiary .icon svg {
+	margin: auto;
+}
+
+
+.pickerheaderprimary .icon,
+.pickerheaderprimary .icon svg {
+	fill:#005782;
+	color:#005782;
+}
+
+.pickerheadersecondary .icon,
+.pickerheadersecondary .icon svg {
+	fill:#006498;
+	color:#006498;
+}
+
+.pickerheadertertiary .icon,
+.pickerheadertertiary .icon svg {
+	fill:#0071AA;
+	color:#0071AA;
 }
 
 .pickerheaderprimary .title,
@@ -109,18 +147,11 @@ body {
 .pickerheadertertiary .title {
 	display: flex;
 	flex: 1;
-	overflow-x:none;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
 	text-align: left;
 	height:100%;
-}
-
-.pickerheaderprimary .chevron,
-.pickerheadersecondary .chevron,
-.pickerheadertertiary .chevron {
-	display: flex;
-	text-align: left;
-	height:100%;
-	width:44px;
 }
 
 .pickerheaderprimary .title {
@@ -141,22 +172,26 @@ body {
 	padding-top:8px;
 }
 
-.pickerheaderprimary .icon,
-.pickerheaderprimary .icon svg {
-	fill:#005782;
-	color:#005782;
+.pickerheaderprimary .chevron,
+.pickerheadersecondary .chevron,
+.pickerheadertertiary .chevron {
+	display: flex;
+	text-align: right;
+	vertical-align: middle;
+	height:100%;
+	width:44px;
 }
 
-.pickerheadersecondary .icon,
-.pickerheadersecondary .icon svg {
-	fill:#006498;
-	color:#006498;
+.pickerheaderprimary .chevron svg,
+.pickerheadersecondary .chevron svg,
+.pickerheadertertiary .chevron svg {
+	margin: auto;
 }
 
-.pickerheadertertiary .icon,
-.pickerheadertertiary .icon svg {
-	fill:#0071AA;
-	color:#0071AA;
-}
+.pickerheaderprimary .chevron svg { fill:#49C4FF; }
+.pickerheadersecondary .chevron svg { fill:#73D1FF; }
+.pickerheadertertiary .chevron svg { fill:#9BDDFF; }
 
-
+.pickerheaderprimary:hover .chevron svg { fill:#005782; }
+.pickerheadersecondary:hover .chevron svg { fill:#006498; }
+.pickerheadertertiary:hover .chevron svg { fill:#0071AA; }
