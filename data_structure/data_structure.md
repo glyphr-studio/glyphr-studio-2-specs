@@ -1,5 +1,5 @@
 # Glyphr Studio data structures
-
+## Spec Status: in progress...
 Version 1 data structure evolved over time, but had some fairly major overhauls in the Beta timeframe to make sure the structure made sense.
 Version 2 is a good opportunity to overhaul this structure.
 

@@ -1,4 +1,5 @@
 # Colors
+## Spec Status: Final for Beta 1
 All colors (that are not user-defined) will come from a set of 4 accent colors, a gray scale, and a special set of failure colors.
 
 ## Using Colors
@@ -22,6 +23,11 @@ Each gradient is comprised of 19 lightnesses, ranging from l=5 to l=95.  These g
 The lightness levels are calculated based on the LAB color space, so lightnesses across hues will be comparable.
 
 The Blue accent color is also the main branding color that shows up on the web page / logo / etc.
+
+### Black and White
+For all UI elements and design, colors as defined in the official list will be the only colors used - so the darkest color will be Gray Lightness = 05, and the lightest color will be Offwhite.
+
+**The only notable exception** being glyph designs and their backgrounds.  Glyphs will be black, and the backgrounds they sit on will be white.  This applies to the Edit Canvas, as well as things like glyph preview thumbnails.
 
 ### Gray scale
 Gray scale is actually a cool gray scale in 20 lightnesses, ranging from l=5 to l=95, plus an 'off white'.

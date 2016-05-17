@@ -1,4 +1,5 @@
-## Plugin System
+# Plugin System
+## Spec Status: Final for Beta 1
 
 A plugin can consist out of two modules, one of which is optional. The two modules are:
 * Event Subscriber (required)

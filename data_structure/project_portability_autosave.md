@@ -1,4 +1,6 @@
 # Project portability / Project auto-save
+## Spec Status: Crazy idea, we're probably not doing all of this
+
 HTML5 Local Storage can be used to auto-save Glyphr Studio projects, or project edit history.  Additionlly, a downloadable project file  will enable projects to be shared or opened on different computers.  Glyphr Studio should recognize a single project, even across edits on different computers.
 
 ### Example
